@@ -373,3 +373,17 @@
 	height: 100%;
 	background: url(../img/loader.gif) center center no-repeat;
 }
+
+i.fab.fa-github {
+	color: black;
+}
+
+.squareIconContact {
+	position: relative;
+    left: 50%;
+    top: 10px;
+    width: 40%;
+    height: 40px;
+    font-size: 40px;
+	margin-left: -20%;
+}

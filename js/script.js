@@ -13,6 +13,10 @@ $(window).on("load", function(){
 	});
 });
 $(document).ready(function() {
+	$('a[href="go_to_destination"]').click(function(){
+		window.open("https://drive.google.com/open?id=1lDkI8JMnHxl-zUhc5g5TTkeqJWEs1RPD");
+		return false;
+	  });
 
 	$('#slides').superslides({
 		animation: 'fade',
